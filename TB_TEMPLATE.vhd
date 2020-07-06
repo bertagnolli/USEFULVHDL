@@ -18,7 +18,7 @@ ARCHITECTURE behavior OF TB_TEMPLATE IS
 
     COMPONENT DUT
     GENERIC(
-        GENERIC_g      : TYPE;
+        GENERIC_g      : TYPE
     );
     PORT   ( 
         INPUT  : TYPE;
