@@ -25,7 +25,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity REG_DELAY is
+entity EXTERNAL_SYNCHRONIZER is
     generic (
                 DELAY   : natural;
                 -- Signal number of bits
